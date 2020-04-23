@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1528</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 170, 255);
+font: 11pt &quot;Microsoft YaHei UI&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tabla_prendas">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>140</y>
+      <width>1391</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TALLA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>COLOR</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>MARCA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TIPO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>PRECIO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ONLINE</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>TEMPORADA</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>DESTINO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>BORRAR</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>EDITAR</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>60</y>
+      <width>411</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>LISTADO USANDO UN TABLE WIDGET</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

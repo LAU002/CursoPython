@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 0, 255);
+font: 16pt &quot;MV Boli&quot;;
+font: 12pt &quot;Curlz MT&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>611</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;MV Boli&quot;;</string>
+    </property>
+    <property name="text">
+     <string>BIENVENID@ A MI TIENDA DE ROPA</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPrendas">
+    <property name="title">
+     <string>Prendas</string>
+    </property>
+    <addaction name="submenu_insertar_prenda"/>
+    <addaction name="submenu_listar_prendas"/>
+    <addaction name="submenu_listar_widget_prendas"/>
+    <addaction name="submenu_table_widget_prendas"/>
+    <addaction name="submenu_inicio"/>
+   </widget>
+   <addaction name="menuPrendas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="submenu_insertar_prenda">
+   <property name="text">
+    <string>insertar_prenda</string>
+   </property>
+  </action>
+  <action name="submenu_listar_prendas">
+   <property name="text">
+    <string>listar_prendas</string>
+   </property>
+  </action>
+  <action name="submenu_inicio">
+   <property name="text">
+    <string>inicio</string>
+   </property>
+  </action>
+  <action name="submenu_list_widget_prendas">
+   <property name="text">
+    <string>Listar libros usando list widget</string>
+   </property>
+  </action>
+  <action name="submenu_listar_widget_prendas">
+   <property name="text">
+    <string>Listar prendas usando List Widget</string>
+   </property>
+  </action>
+  <action name="submenu_table_widget_prendas">
+   <property name="text">
+    <string>Tabla prendas usando Table Widget</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
